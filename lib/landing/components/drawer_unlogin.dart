@@ -1,6 +1,7 @@
 import 'package:ecoist/donate/page/donate.dart';
 import 'package:ecoist/landing/page/login_page.dart';
 import 'package:ecoist/landing/page/register_page.dart';
+import 'package:ecoist/home/page/home.dart';
 import 'package:ecoist/donate/page/donate.dart';
 import 'package:ecoist/main.dart';
 
@@ -25,8 +26,7 @@ class DrawerUnlogin extends StatelessWidget {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => const MyHomePage(
-                          title: "ECOIST",
+                    builder: (context) => const HomePage(
                         )),
               );
             },
